@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="Script/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/c777d5f0aa.js" crossorigin="anonymous" defer></script>
+    <title>Results Summary | Component Main</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="caixa">
+      <section class="caixa_esquerda">
+        <h3 class="seu_resultado">Your Result</h3>
+        <div class="circulo">
+          <div>
+            <p class="numero_principal">--</p>
+            <p class="numero_secundario">of 100</p>
+          </div>
+        </div>
+        <p class="satifacao">Great</p>
+        <p class="sua-pontuacao">
+          You score higher than 65% of <br />
+          the people who have taken <br />
+          these test.
+        </p>
+      </section>
+
+      <section class="caixa_direita">
+        <div class="caixa_direita_filho">
+        <p class="somario">Summary</p>
+        <div class="caixa_resultado">
+          <div class="caixa_resultado_secundaria">
+            <section class="resultado_escrito">
+              <img src="assets/images/icon-reaction.svg" />
+              <p class="resultado_escrito_reaction">Reaction</p>
+            </section>
+            <div class="resultado_nota">
+              <p class="nota_reaction" id="nota-reaction">-</p>
+              <p class="nota_resultado_nota">/100</p>
+            </div>
+            <span class="porcentage_fundo_reaction"></span>
+          </div>
+        </div>
+        <div class="caixa_resultado">
+          <div class="caixa_resultado_secundaria">
+            <section class="resultado_escrito">
+              <img src="assets/images/icon-memory.svg" />
+              <p class="resultado_escrito_Memory">Memory</p>
+            </section>
+            <section class="resultado_nota">
+              <p class="nota_memory">-</p>
+              <p class="nota_resultado_nota">/100</p>
+            </section>
+            <span class="porcentage_fundo_memory"></span>
+          </div>
+        </div>
+        <div class="caixa_resultado">
+          <div class="caixa_resultado_secundaria">
+            <section class="resultado_escrito">
+              <img src="assets/images/icon-verbal.svg" />
+              <p class="resultado_escrito_Verbal">Verbal</p>
+            </section>
+            <section class="resultado_nota">
+              <p class="nota_verbal">-</p>
+              <p class="nota_resultado_nota">/100</p>
+            </section>
+            <span class="porcentage_fundo_verbal"></span>
+          </div>
+        </div>
+        <div class="caixa_resultado">
+          <div class="caixa_resultado_secundaria">
+            <div class="resultado_escrito">
+              <img src="assets/images/icon-visual.svg" />
+              <p class="resultado_escrito_Visual">Visual</p>
+            </div>
+            <div class="resultado_nota">
+              <p class="nota_visual">-</p>
+              <p class="nota_resultado_nota">/100</p>
+            </div>
+            <span class="porcentage_fundo_visual"></span>
+          </div>
+        </div>
+        <button class="calcular" onclick="calcular()">Continue</button>
+        <div class="container_my_icons">
+          <div class="div_my_icons">
+            <a href="https://github.com/guilhermebragasantana" target="_blank"><img src="assets/images/icons8-github-100.svg" alt="My GitHub" class="my_icons"></a>
+            <span>Github</span>
+          </div>
+          <div class="div_my_icons">
+            <a href="https://www.instagram.com/guilhermesantana.dev/" target="_blank"><img src="assets/images/icons8-instagram-100.svg" alt="My Instagram" class="my_icons"></a>
+            <span>Instagram</span>
+          </div>
+          <div class="div_my_icons">
+            <a href="https://twitter.com/Guilherme6654" target="_blank"><img src="assets/images/icons8-twitter-100.svg" alt="My twitter" class="my_icons"></a>
+            <span>Twitter</span>
+          </div>
+          </div>
+      </section>
+
+    </div>
+  </body>
+</html>
